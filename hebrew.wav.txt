@@ -1,0 +1,18 @@
+C:\Users\Kazi Rahiv\PycharmProjects\transcribe\hebrew.wav
+speaker1 he-IL 00:00 אני אומר לא לתת למישהו בכיר שיתן להיות פתרון או להישאר עם הניתוק. זה מה שאני מציע.
+speaker2 he-IL 00:09 מתי אחרי שת ימי עסקים
+speaker1 he-IL 00:13 מה?
+speaker2 he-IL 00:16 עופר אשד היה מהעסקים כן?
+speaker1 he-IL 00:19 אני אומר אני, אני עכשיו התקשרתי כדי לראות אם נותנים לי לדבר עם מישהו בכיר או להישאר עם הניתוק.
+speaker2 he-IL 00:28 אז את אומרת לי להישאר?
+speaker1 he-IL 00:31 אבל את?
+speaker2 he-IL 00:34 אבל את מתנתקת.
+speaker1 he-IL 00:37 אני יכול לבטל גם את הניתוק. מה?
+speaker2 he-IL 00:40 את מתנתקת.
+speaker1 he-IL 00:44 את מתנתקת עכשיו.
+speaker2 he-IL 00:47 אז אני רוצה לראות אם אני יכול לבטל את הניתוק.
+speaker1 he-IL 00:51 ניתוק.
+speaker2 he-IL 00:52 מה?
+speaker1 he-IL 00:54 נטות.
+speaker2 he-IL 00:56 מה לי טוב?
+speaker1 he-IL 00:58 את מתנתקת עכשיו בזמן הזה את מתנתקת.
