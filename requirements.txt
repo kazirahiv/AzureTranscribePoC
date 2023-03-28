@@ -1,2 +1,6 @@
 azure-cognitiveservices-speech
+azure-identity
 pydub
+python-dotenv
+azure-common
+azure-storage-blob
