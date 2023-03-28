@@ -24,5 +24,4 @@ Set the VERBOSE variable to True if you want to see every step in CLI
 
 ```
 python main.py
-
 ```
