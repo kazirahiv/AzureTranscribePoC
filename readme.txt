@@ -1,17 +1,24 @@
-Azure stuffs:
+# Azure batch transcription PoC
 
-Create an Azure Active Directory (Azure AD) application: To authenticate to Azure using Python, you need to create an Azure AD application and assign it a role with the necessary permissions. Follow the instructions in the Azure documentation to create an Azure AD application and assign it a role with the necessary permissions.
-https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal
-Get the application credentials: After you create the Azure AD application, you need to get the application credentials, which include the client ID and client secret. Follow the instructions in the Azure documentation to get the client ID and client secret for your Azure AD application.
-https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#get-values-for-signing-in
-Get the subscription ID: To interact with Azure resources, you also need the subscription ID of your Azure account. Follow the instructions in the Azure documentation to get the subscription ID.
-https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/create-subscription
-Get the tenant ID: Finally, you need the tenant ID of your Azure AD directory to authenticate to Azure. Follow the instructions in the Azure documentation to get the tenant ID.
-https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-to-find-tenant
-Once you have the client ID, client secret, subscription ID, and tenant ID, you can use them to authenticate to Azure using the Azure SDK for Python.
+![](https://github.com/kazirahiv/AzureTranscribePoC/blob/main/workflow.png?raw=true)
 
+## Installation
 
-Settings:
-Provide the azure config file path in the .env file.
-TRANSCRIPTION_DIRECTORY is the folder where the audio files are stored, which will be transcribed.
-TRANSCRIPTION_OUTPUT_DIRECTORY is the folder where the transcription output will be stored in text format.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install -r requirements.txt
+```
+
+## Configurations
+Grab your Azure Client id, Client secret, Tenant id, Service region, subscription key (Azure Speech),Azure storage container connection string from portal and put them into .env file accordingly.
+
+Set your folder containing audio files in TRANSCRIPTION_DIRECTORY variable from .env
+Set VERBOSE variable to True if you want to see every step in CLI 
+
+## Usage
+
+```
+python main.py
+
+```
